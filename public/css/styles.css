@@ -76,12 +76,59 @@ h3{
 
 }
 
+#login{
+  text-align: center!important;
+  padding : 7% 25% 7%;
+}
+.login{
+  text-align: center!important;
+
+}
+
+.form-floating{
+  text-align: left;
+}
+
+.login-input{
+  margin: 1.5rem 0rem;
+}
+
+
+/* #2b1d0e */
+.login-button{
+  background-color: #654321;
+  color: white;
+}
+.login-button:hover{
+  background-color: #2b1d0e;
+  color:white;
+}
+.sign-button{
+  border-color: #654321;
+}
+.sign-button:hover{
+  background-color: wheat;
+}
+
+.submit-button{
+  background-color: #654321;
+  color:white ;
+  border-color: #2b1d0e;
+}
+.submit-button:hover{
+  background-color: #2b1d0e;
+  color: white;
+}
+
 #footer{
+  background-color:#2b1d0e;
+  color: white;
   text-align: center;
   padding: 7% 15%;
 }
 .social-icon{
   margin: 20px 20px;
+  color: white;
 }
 
 .col-md-3{
