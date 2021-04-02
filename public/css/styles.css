@@ -78,9 +78,10 @@ h3{
 
 #login{
   text-align: center!important;
-  padding : 7% 25% 7%;
+  padding : 7% 35% 7%;
 }
-.login{
+
+.login {
   text-align: center!important;
 
 }
@@ -114,10 +115,22 @@ h3{
   background-color: #654321;
   color:white ;
   border-color: #2b1d0e;
+  margin-top: 2rem;
 }
 .submit-button:hover{
   background-color: #2b1d0e;
   color: white;
+}
+
+#confirm{
+
+  text-align: center!important;
+  padding : 7% 35% 7%;
+
+}
+
+.confirm-img{
+  width:40%;
 }
 
 #footer{

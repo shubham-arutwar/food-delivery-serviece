@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get("/", function(req, res) {
-  res.render("signin");
+  res.render("confirm");
 });
 
 app.listen(3000, function() {
