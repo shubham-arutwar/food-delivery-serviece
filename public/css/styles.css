@@ -6,7 +6,8 @@ h1,h2,h3,h4{
 }
 
 #title{
-  background-color: #F4A460;
+  /* background-color: #F4A460; */
+  background-color: #fbedda;
 }
 
 .logo{
@@ -38,9 +39,8 @@ h3{
 
 
 .container-fluid{
-  padding: 3% 15% 1%;
-
-
+  /* padding: 3% 15% 1%; */
+  padding: 1% 5% 0% 8%;
 }
 
 /* Navigation bar */
@@ -49,10 +49,11 @@ h3{
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: 400;
+  color: #2b1d0e !important;
 
 }
 .navbar{
-  padding : 0 0 4.5rem;
+  padding : 0 0 0.4rem;
 }
 
 .nav-item{
@@ -64,7 +65,16 @@ h3{
 }
 
 .link{
+  color: #2b1d0e!important;
+}
 
+.navbar-toggler{
+  background-color: #654321 !important;
+  border-color: #2b1d0e !important;
+
+}
+.navbar-toggler:hover{
+  background-color: #2b1d0e !important;
 }
 
 .text-end {
@@ -78,7 +88,11 @@ h3{
 
 #login{
   text-align: center!important;
+<<<<<<< HEAD
   padding : 7% 35% 7%;
+=======
+  padding : 5% 35% 7%;
+>>>>>>> om
 }
 
 .login {
@@ -115,36 +129,142 @@ h3{
   background-color: #654321;
   color:white ;
   border-color: #2b1d0e;
-  margin-top: 2rem;
+  margin-top: 1rem
 }
 .submit-button:hover{
   background-color: #2b1d0e;
   color: white;
 }
 
+
+
+
+
+
+
+
+
+
 #confirm{
 
   text-align: center!important;
-  padding : 7% 35% 7%;
+  padding : 6% 25% 5%;
+
+}
+.confirm{
+  text-align: center!important;
+  color: green;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.confirm-txt{
+  font-size: 2rem;
+  margin-top: 1.5rem;
 
 }
 
 .confirm-img{
-  width:40%;
+  width:35%;
 }
 
-#footer{
-  background-color:#2b1d0e;
-  color: white;
-  text-align: center;
-  padding: 7% 15%;
-}
-.social-icon{
-  margin: 20px 20px;
-  color: white;
+.after-confirm{
+  padding-bottom: 2%;
 }
 
-.col-md-3{
-  height: 5.5rem;
-  width: 15rem;
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 30px 5vw;
+  box-sizing: border-box;
+  background-color: #fbedda;
+}
+
+.inner-footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.footer-logo{
+  width: 30vw;
+  height: auto;
+}
+
+.footer-logo img{
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 10px auto;
+
+}
+
+.footer-need-help{
+  padding: 20px 5%;
+  width: 30vw;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  color: #572800;
+}
+
+.footer-need-help a{
+  text-decoration: none;
+  display: block;
+  color: #572800;
+  margin: 8px 0;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color .4s ease-out;
+}
+
+.footer-need-help a:hover {
+  color: #572800;
+  right: 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-need-help a:hover:after {
+  border-color: #572800;
+  font-weight: bold;
+  right: 0;
+}
+
+.footer-need-help a:after {
+  font-weight: bold;
+  border-radius: 2rem;
+  border-top: .1rem solid #572800;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: 0rem;
+    left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1),
+              border-color .4s ease-out;
+}
+
+.footer-contact-us{
+  width: 30vw;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #572800;
+}
+
+
+.content{
+  display: block;
+  letter-spacing: 1px;
+  height: 100px;
 }
